@@ -1,0 +1,17 @@
+{
+  "name": "try_stylelint",
+  "version": "1.0.0",
+  "description": "## work log",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "csslint": "stylelint ./src",
+    "csslintfix": "stylelint --fix ./src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "stylelint-config-standard": "^37.0.0"
+  }
+}
