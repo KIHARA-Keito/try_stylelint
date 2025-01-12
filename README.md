@@ -24,8 +24,6 @@ $ git push -u origin main
 $ npm init --yes
 $ npm install -D stylelint-config-standard
 $ touch .stylelintrc.json
-$ npm install -D stylelint-config-standard
-$ touch .stylelintrc.json
 ```
 
 ```.stylelintrc.json
@@ -62,4 +60,26 @@ $ npx stylelint ./src
 
 ```
 $ npm run csslint
+```
+
+4. sass のインストール
+
+```
+$ npm i sass
+```
+
+```.package.json
+"scripts": {
+  "sass": "sass ./src/*.scss out/out.css",
+},
+```
+
+```
+$ npm run sass
+```
+
+5. stylelint-config-standard-scss, stylelint-config-recess-order のインストール
+
+```
+$ npm i -D
 ```
