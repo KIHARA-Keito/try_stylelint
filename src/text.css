@@ -1,7 +1,5 @@
 body {
   color: aqua;
-}
-
-body {
   text-align: left;
+  overflow: auto;
 }
