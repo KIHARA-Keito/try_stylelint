@@ -81,5 +81,14 @@ $ npm run sass
 5. stylelint-config-standard-scss, stylelint-config-recess-order のインストール
 
 ```
-$ npm i -D
+$ npm i -D stylelint-config-standard-scss
+$ npm i -D stylelint-config-recess-order
+```
+
+```.stylelintrc.json
+{
+  "extends": [
+    "stylelint-config-standard-scss"
+  ]
+}
 ```

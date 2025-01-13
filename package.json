@@ -13,7 +13,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "stylelint-config-standard": "^37.0.0"
+    "stylelint-config-recess-order": "^5.1.1",
+    "stylelint-config-standard": "^37.0.0",
+    "stylelint-config-standard-scss": "^14.0.0"
   },
   "dependencies": {
     "sass": "^1.83.1"
